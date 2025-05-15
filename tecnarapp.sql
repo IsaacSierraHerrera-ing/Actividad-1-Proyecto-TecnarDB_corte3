@@ -35,8 +35,8 @@ CREATE TABLE IF NOT EXISTS `clientes` (
 DELETE FROM `clientes`;
 INSERT INTO `clientes` (`Id`, `Nombre`, `Apellido`, `Direccion`, `Telefono`) VALUES
 	(1, 'Ivan Dario2', 'Narvaez', '13 de junio', '3012214332'),
-	(3, 'Miguel', 'Caro', 'Micasita', '30069'),
-	(4, 'Diego', 'yepes', 'sucasa', '310');
+	(3, 'isaac', 'sierra', 'pontezule', '5836582369'),
+	(4, 'kdcda', 'ehfiehif', 'ñmienfi', '5646474');
 
 -- Volcando estructura para tabla tecnarapp.usuarios
 DROP TABLE IF EXISTS `usuarios`;
@@ -55,8 +55,9 @@ DELETE FROM `usuarios`;
 INSERT INTO `usuarios` (`Id`, `Nombre`, `Apellido`, `Username`, `Email`, `Clave`) VALUES
 	(1, 'Ivan', 'Narvaez', 'namey811', 'namey811@gmail.com', 'abc123'),
 	(2, 'Sandra', 'Lagares', 'slagares', 'slagaes@gmail.com', 'abc123'),
-	(3, 'Miguel', 'Caro', 'Mig', 'caro@gmail.com', '123'),
-	(4, 'Diego', 'Yepes', 'Dig', 'Yepes@gmail.com', '1234');
+	(3, 'isaac', 'sierra', 'isaac', 'isaac@gmail.com', '123');
+
+
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
